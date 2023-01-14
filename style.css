@@ -114,3 +114,80 @@ padding: 40px 50px;
     border: none;
     margin: 20px 0;
 }
+
+
+/* Feauter Section part css start */
+
+.feauture-text-img{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    gap: 20px;
+    border-radius: 20px;
+    position: relative;
+    margin: 50px 0;
+}
+.feauture-text-area{
+    flex: 1;
+    padding: 5px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+.feauture-image{
+    flex: 1;
+    padding: 5px;
+    border-radius: 10px;
+}
+.top-text h2{
+    font-size: 30px;
+    padding-right: 220px;
+}
+.top-text p{
+    margin: 20px 0;
+}
+.left-margin{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 15px 0;
+    margin-right: 90px;
+}
+.left-border{
+    height: 60px;
+    width: 8px;
+    background-color: #FF900E;
+}
+.feauture-image img {
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+ object-position: left;
+}
+.service-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.feauture-text{
+    padding: 25px 10px;
+    background: #ffffff;
+    box-shadow: 5px 5px 5px #f3eeee;
+    border-radius: 10px;
+    margin-right: 70px;
+}
+.feauture-text h3{
+    margin: 10px 0;
+    font-size: 25px;
+}
+.ten-year{
+    padding: 15px;
+}
+.flying-btn{
+    position: absolute;
+    bottom: 0;
+}
+.flying-btn > .ten-year {
+ margin: 0;
+ border-radius: 5px;
+ padding: 25px 40px;
+}
