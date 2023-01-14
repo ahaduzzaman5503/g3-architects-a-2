@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
 }
-/* Header css start */
+/* Header Menuber css start */
 
 .header{
     background-color: #FFF4E7;
+}
+.container{
     margin: 0 250px;
+
 }
 nav{
     display: flex;
@@ -28,5 +31,41 @@ nav > .logo h1{
 .menu-ber > ul li a{
    text-decoration: none;
    text-transform: capitalize;
+   color: black;
+}
+
+
+/* Header Banner css start */
+
+.top-title{
+ width: 700px;
+ margin: 0 auto;
+ margin-top: 20px;
+ padding: 30px;
+}
+.top-title h1{
+    font-size: 65px;
+    text-align: center;
+    padding: 5px 80px;
+    color: #131313;
+}
+.top-title p{
+    text-align: center;
+}
+.explore-btn{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+.explore-btn .btn{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #FF900E;
+    color: white;
+    border: none;
+}
+.banner img{
+    margin: 30px 0;
 }
  
