@@ -191,3 +191,60 @@ padding: 40px 50px;
  border-radius: 5px;
  padding: 25px 40px;
 }
+
+
+
+/* Some Fect Section css Start */
+
+.some-fact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.some-fact-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.single-box{
+    border: 1px solid #FF900E;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;   
+}
+.single-box:hover{
+    border: 1px solid #22ff0e;
+    padding: 31px;
+    border-radius: 15px;
+    background-color: rgb(200, 182, 182);   
+}
+.single-box img{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+.single-box h3{
+    margin: 5px 0;
+}
+.single-box p{
+    font-size: 18px;
+}
+.some-fact-text{
+    margin: 50px 0;
+}
+.some-fact-text h2{
+    margin-bottom: 15px;
+}
+.some-fact-text p{
+    margin-right: 800px;
+    color: #727272
+    ;
+}
+
+ 
+
+
