@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header css start */
+
+.header{
+    background-color: #FFF4E7;
+    margin: 0 250px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav > .logo h1{
+    font-size: 45px;
+}
+.menu-ber > ul{
+    display: flex;
+    gap: 20px;
+}
+.menu-ber > ul li{
+  list-style-type: none;
+  text-decoration: none;
+}
+.menu-ber > ul li a{
+   text-decoration: none;
+   text-transform: capitalize;
+}
+ 
