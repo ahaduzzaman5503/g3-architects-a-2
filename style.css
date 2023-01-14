@@ -68,4 +68,49 @@ nav > .logo h1{
 .banner img{
     margin: 30px 0;
 }
- 
+
+
+/* Gallary Section CSS Start */
+
+.gallar-text{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    padding: 20px;
+    margin: 30px 0;
+}
+.galarry{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.gel-text{
+display: flex;
+align-items: center;
+padding: 40px 50px;
+}
+.text-area h3{
+    font-size: 45px;
+    color: #727272;
+    margin: 10px 0;
+}
+.text-area p{
+    margin: 20px 0;
+}
+.of-our{
+    color: #131313;
+    font-weight: bold;
+}
+.featur{
+    color: #FF900E;
+}
+.btn{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #FF900E;
+    color: white;
+    border: none;
+    margin: 20px 0;
+}
