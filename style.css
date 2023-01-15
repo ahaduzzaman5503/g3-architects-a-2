@@ -340,22 +340,23 @@ padding: 40px 50px;
     @media screen and (max-width: 375px) {
 
         .container{
-            margin: 0 30px;
+            margin: 0 50px;
         }
-        nav{
+        nav {
             display: flex;
-            flex-direction: column;
-            gap: 10px;
+            justify-content: space-between;
             align-items: center;
-            padding: 10px;
+            padding: 20px;
         }
-        nav > .logo h1{
-            font-size: 30px;
+        
+        }
+        nav > .logo h1 {
+            font-size: 40px;
             color: #FF900E;
         }
-        .menu-ber > ul{
+        .menu-ber > ul {
             display: flex;
-            gap: 15px;
+            gap: 25px;
         }
         .menu-ber > ul li{
           list-style-type: none;
@@ -365,9 +366,116 @@ padding: 40px 50px;
            text-transform: capitalize;
            color: black;
            font-weight: bold;
-           font-size: 18px;
+           font-size: 20px;
         }
-        .top-title{
+
+
+        .banner img{
+            width: 600px;
+            height: auto;
+        }
+
+     
+
+
+        .gallar-text{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .galarry{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 20px;
+        }
+        .galarry img{
+           width:  550px;
+           height: auto;
+        }
+
+
+        .gel-text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 10px;
+            }
+
+            .text-area{
+                display: flex;
+                flex-direction: column;
+            }
+            .text-area h3{
+                font-size: 45px;
+                color: #727272;
+            }
+       
+
+            .feauture-text-img{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .some-fact-box{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                justify-content: space-around;
+             }
+             .some-fact-text{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .some-fact-text h2{
+                margin-bottom: 15px;
+                margin: 10px 20px;
+            }
+            .some-fact-text p{
+                margin: 10px 20px;
+                color: #727272;
+                font-size: 20px;
+                text-align: center;
+            }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        /* .top-title{
             display: flex;
             flex-direction: column;
         }
@@ -502,7 +610,7 @@ padding: 40px 50px;
         .sopnspor-text p {
             margin: 10px 30px;
             font-size: 20px;
-        }
+        } */
 
 
     }
