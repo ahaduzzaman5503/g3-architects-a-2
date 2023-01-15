@@ -349,7 +349,6 @@ padding: 40px 50px;
             padding: 20px;
         }
         
-        }
         nav > .logo h1 {
             font-size: 40px;
             color: #FF900E;
@@ -501,121 +500,6 @@ padding: 40px 50px;
                 margin: 10px 30px;
                 font-size: 20px;
             }
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        /* .top-title{
-            display: flex;
-            flex-direction: column;
-        }
-           .top-title h1{
-               font-size:20px;
-               text-align: left;
-               color: #131313;
-           }
-           .top-title p{
-                text-align: left;
-           }
-           .banner img{
-             width: 100%;
-             height: auto;
-        }
-        .gel-text{
-            display: flex;
-            align-items: center;
-            padding: 10px 10px;
-            }
-        .gallar-text{
-            display: flex;
-            flex-direction: column-reverse;
-        }
-        .galarry{
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            column-gap: 20px;
-        }
-        .container{
-            margin: 0 auto;
-        }
-        .feauture-text-img{
-            display: flex;
-            flex-direction: column-reverse;
-            flex: 1;
-            gap: 20px;
-            border-radius: 20px;  
-        }
-        .top-text h2{
-            font-size: 25px;
-            padding-right: 10px;
-        }
-        .top-text p{
-            margin: 20px 5px;
-        }
-        .flying-btn{
-            position: absolute;
-            bottom: -100px;
-           left: 50px;
-           margin-bottom: 10px;  
-        }
-        .some-fact-box{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            justify-content: space-around;
-         }
-         .some-fact-text{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .some-fact-text h2{
-            margin-bottom: 15px;
-            margin: 10px 20px;
-        }
-        .some-fact-text p{
-            margin: 10px 20px;
-            color: #727272;
-            font-size: 20px;
-            text-align: center;
-        }
- */
-
-
     }
 
 
