@@ -439,6 +439,69 @@ padding: 40px 50px;
                 text-align: center;
             }
 
+
+            .footer {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                color: #FFF4E7;
+                padding: 10px;
+                font-size: 20px;
+            }
+            .bottom{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                margin-top: 100px;
+                color: #FFF4E7;
+            }
+            .line{
+                width: 100%;
+                height: 5px;
+                margin-top: 50px;
+            }
+            .contact{
+                flex: 1;
+                text-align: left;
+                color: #ffffff;
+                margin-top: 20px;
+                padding: 10px;
+                font-size: 20px;
+            }
+            .footer-area{
+                padding: 100px 0;
+            }
+            .copyright p{
+                padding: 10px 0;
+                border-radius: 8px;
+                font-size: 20px;
+                margin: 50px 0;
+            }
+            .sponspor-icon{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 35px;
+            }
+            .sponspor-icon img{
+                width: 250px;
+                height: 130px;
+                border: 1px solid gray;
+                border-radius: 10px;
+                padding: 10px;
+            }
+            .sopnspor-text h2{
+                margin-bottom: 15px;
+                font-size: 40px;
+               }
+            .sopnspor-text p {
+                margin: 10px 30px;
+                font-size: 20px;
+            }
+
  
 
 
@@ -550,67 +613,7 @@ padding: 40px 50px;
             font-size: 20px;
             text-align: center;
         }
-        .footer {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            color: #FFF4E7;
-            padding: 10px;
-            font-size: 20px;
-        }
-        .bottom{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            margin-top: 100px;
-            color: #FFF4E7;
-        }
-        .line{
-            width: 100%;
-            height: 5px;
-            margin-top: 50px;
-        }
-        .contact{
-            flex: 1;
-            text-align: left;
-            color: #ffffff;
-            margin-top: 20px;
-            padding: 10px;
-            font-size: 20px;
-        }
-        .footer-area{
-            padding: 100px 0;
-        }
-        .copyright p{
-            padding: 10px 0;
-            border-radius: 8px;
-            font-size: 20px;
-            margin: 50px 0;
-        }
-        .sponspor-icon{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 35px;
-        }
-        .sponspor-icon img{
-            width: 250px;
-            height: 130px;
-            border: 1px solid gray;
-            border-radius: 10px;
-            padding: 10px;
-        }
-        .sopnspor-text h2{
-            margin-bottom: 15px;
-            font-size: 40px;
-           }
-        .sopnspor-text p {
-            margin: 10px 30px;
-            font-size: 20px;
-        } */
+ */
 
 
     }
